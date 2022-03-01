@@ -1,0 +1,56 @@
+main{
+    display:flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-between;
+    border: 1px solid white;
+    background: url(rrrrrr.jpg);
+}
+
+.left, .right{
+    flex: 0 0 20%;
+}
+
+.right{
+    order: 10;
+}
+
+nav{
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #5F9EA0;
+    color: #F5CA72;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #F5CA72;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+}
+
+article{
+    display: flex;
+    gap: 5px;
+    flex: 0 0 calc(100% - 40% - 30px);
+}
+
+
+
+article img{
+    width: 100%;
+}
+
+aside{
+    flex: 0 0 30%;
+}
+
+@media screen and (max-width: 600px) {
+    
+}
